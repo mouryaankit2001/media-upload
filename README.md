@@ -158,7 +158,3 @@ See `DEPLOYMENT.md` for simplified AWS deployment instructions
 - `GET /api/users/profile` - Get current user profile
 - `GET /api/users/media` - Get current user's media
 - `GET /api/users/:id` - Get public profile by ID
-
-## License
-
-MIT 

@@ -1,4 +1,4 @@
-# Simplified AWS Deployment Guide (for Interview Purposes)
+# Simplified AWS Deployment Guide
 
 This guide provides simple steps to deploy the application on AWS for demonstration purposes.
 
@@ -55,8 +55,8 @@ This guide provides simple steps to deploy the application on AWS for demonstrat
 
 4. Clone your repository
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
-   cd your-repo
+   git clone https://github.com/mouryaankit2001/media-upload.git
+   cd /media-upload
    ```
 
 5. Set up environment variables
@@ -80,26 +80,9 @@ This guide provides simple steps to deploy the application on AWS for demonstrat
    pm2 startup
    ```
 
-### Option 2: Elastic Beanstalk (Easier)
-
-1. Navigate to Elastic Beanstalk in AWS Console
-2. Create a new application
-3. Choose the Node.js platform
-4. Upload a zip file of your backend code
-5. Configure environment variables under Configuration
-6. Deploy!
-
 ## Step 3: Deploy the Frontend
 
-### Option 1: AWS Amplify (Easiest)
-
-1. Navigate to AWS Amplify
-2. Connect your GitHub/GitLab/Bitbucket repository
-3. Configure build settings (use default React settings)
-4. Set environment variables
-5. Deploy
-
-### Option 2: S3 + CloudFront (Cost-effective)
+### S3 + CloudFront
 
 1. Build your React app locally
    ```bash
@@ -117,17 +100,3 @@ This guide provides simple steps to deploy the application on AWS for demonstrat
 
 1. Update the frontend API URL to point to your backend
 2. Update the CORS settings in your backend to allow requests from your frontend
-
-## Monitoring
-
-For interview purposes, you can demonstrate:
-
-1. CloudWatch for logs and monitoring
-2. AWS S3 console to view uploaded media files
-3. MongoDB Atlas dashboard to show the database
-
-## Bonus: Simple CI/CD
-
-For a more impressive demo:
-1. Set up GitHub Actions to automatically build and deploy your code
-2. Configure AWS Amplify to automatically deploy on commits to main branch 
