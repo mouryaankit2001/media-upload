@@ -93,20 +93,6 @@ frontend/
 
 ## Setup Instructions
 
-### Quick Start (Both Frontend and Backend)
-
-1. Install all dependencies:
-   ```
-   npm run install-all
-   ```
-
-2. Create `.env` files in both frontend and backend directories
-
-3. Start both servers with a single command:
-   ```
-   npm run dev
-   ```
-
 ### Backend Setup
 
 1. Navigate to the backend directory:
@@ -116,7 +102,7 @@ frontend/
 
 2. Install dependencies:
    ```
-   npm install
+   npm install --f
    ```
 
 3. Create a `.env` file in the backend directory (see .env.example for required variables)
@@ -135,7 +121,7 @@ frontend/
 
 2. Install dependencies:
    ```
-   npm install
+   npm install --f
    ```
 
 3. Create a `.env` file in the frontend directory with:
