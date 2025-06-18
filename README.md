@@ -2,6 +2,10 @@
 
 A full-stack web application for sharing media files with Google authentication and AWS S3 storage integration. Users can upload images, videos, and PDFs, and control visibility of their media.
 
+# Media Share App with Google Authentication
+
+🎥 **Demo Video**: [Watch here](https://drive.google.com/file/d/1gh_Ju-8b89UN_4orZta4WqPYfcypeDR6/view)
+
 ## Features
 
 - Google Authentication
